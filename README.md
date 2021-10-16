@@ -1,0 +1,1 @@
+This the project about how to make a webpage using the html, css, and flexobx lessons from "The Odin Project" Foundations course.  I must try to duplicate the example webpage given. Hopefully it turns out well. 

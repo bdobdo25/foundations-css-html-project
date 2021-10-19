@@ -1,0 +1,207 @@
+*{
+    margin: 0%;
+}
+
+.header-container{
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+        .logo{
+            flex: 4;
+            text-decoration: none;
+            font-size: 24px;
+        
+        }
+
+        .link1 {
+            flex: 1;
+            text-decoration: none;
+        }
+
+        .link2 {
+            flex: 1;
+            text-decoration: none;
+        }
+
+        .link3 {
+            flex: 1;
+            text-decoration: none;
+            
+        }
+
+
+/* second part ........................................................*/
+
+
+.second-container {
+    background-color: #1f2937;
+   color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    }
+    
+
+        .second-container img {
+            width: 350px;
+            height: 230px;
+            margin-right: 100px;
+            
+        }
+        .second-title {
+            width: 400px;
+            font-size: 48px;
+            font-weight: bolder;
+        }
+        .second-paragraph{
+            width: 400px;
+        }
+        .button {
+            font-size: 15px;
+            width: 100px;
+            background-color: #3882f6 ;
+            border-radius: 5px;
+        }
+
+/* THIRD CONTAINER ......................................................*/
+.section3-heading{
+   
+    padding-left: 37%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 36px ;
+}
+
+.third-container{
+    background-color: white;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    .text1{
+        display: flex;  
+        flex-direction: column;
+        align-content: center;
+        width: 150px;
+        
+    }
+        .catimage2{
+            height: 225px;
+            width: 150px;
+            flex: 1;
+            margin-top: 20px;
+            margin-left: 0px;
+            margin-bottom: 20px;
+            border-radius: 20%;
+            justify-content: flex-end;
+            
+        }
+    .text2{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+    }
+        .catimage3{
+            height: auto;
+            width: 150px;
+            flex: 1 ;
+            margin: 20px;
+            border-radius: 20%;
+        }
+    .text3{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+    }
+        .catimage4{
+            height: auto;
+            width: 150px;
+            flex: 1;
+            margin: 20px;
+            border-radius: 20%;
+        }
+    .text4{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+    }
+        .catimage5{
+            height: auto;
+            width: 150px;
+            flex: 1;
+            margin: 20px;
+            border-radius: 20%;
+            
+        }
+   /*............................................................................*/
+   
+   .quote-container{
+       display: flex;
+       padding: 100px 50px ;
+       font-size: 36px ;
+       font-style: italic;
+       font-weight: lighter;
+       background-color: #e5e7eb;
+       color: #1F2937;
+   }
+
+        .quote-container > div{
+
+        }
+        cite {
+            font-size: 20px;
+            font-weight: bold;
+            font-style: normal;
+            padding: 22px;
+            padding-top: 30px;
+        }
+
+
+
+/*............................................................................*/
+
+.action-container{
+    display: flex;
+    margin: 10%;
+    padding: 40px 55px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    
+  
+    background-color: #3882f6;
+    color: white;
+    
+    }
+
+    .action-container > div{
+        flex: 6;
+        
+    }
+    .action-container > button{
+        flex: 1;
+        border: white;
+        border-style: solid; 
+        border-radius: 6%;
+        background-color:#3882f6 ;
+        color: white;
+        
+    }
+footer > p {
+    background-color:#1f2937 ;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: auto;
+    padding-left: auto;
+}
